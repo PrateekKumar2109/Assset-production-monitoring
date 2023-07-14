@@ -1,0 +1,8 @@
+numpy
+pandas
+langchain==0.0.118
+matplotlib==3.3.2
+seaborn==0.11.2
+plotly==5.11.0
+openpyxl
+streamlit
