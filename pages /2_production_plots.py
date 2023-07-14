@@ -8,8 +8,8 @@ st.set_page_config(page_title="Production Data Dashboard", page_icon=":oil_drum:
 
 # Load the data
 # Note: Replace this with your actual file path
-file_path = '/kaggle/input/aseet-production-data/production data.xlsx'
-df = pd.read_excel(file_path)
+data_url="https://raw.githubusercontent.com/PrateekKumar2109/Assset-production-monitoring/main/Data/my_data.csv"
+df = pd.read_csv(data_url)
 
 # Convert the 'DATE' column to datetime format
 df['DATE'] = pd.to_datetime(df['DATE'])
