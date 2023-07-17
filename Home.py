@@ -11,7 +11,7 @@ st.markdown(
     We are here to make Energy Professionals life easy   
 """)
 
-activities=['Login','About']
+activities=['About']
 choice=st.sidebar.selectbox("Select Activity", activities)
 if choice=='Login':
     st.subheader('Login')
